@@ -1,4 +1,4 @@
-package com.cinegest.back.entity;
+package com.cinegest.back.global.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

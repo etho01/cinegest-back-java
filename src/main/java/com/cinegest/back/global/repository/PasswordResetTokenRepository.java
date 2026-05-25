@@ -1,10 +1,11 @@
-package com.cinegest.back.repository;
+package com.cinegest.back.global.repository;
 
-import com.cinegest.back.entity.PasswordResetToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.cinegest.back.global.entity.PasswordResetToken;
 
 import java.util.Optional;
 
